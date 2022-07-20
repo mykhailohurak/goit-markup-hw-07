@@ -32,7 +32,7 @@ ul {
   list-style: none;
 }
 
-/* Header ------------------------------------ */
+/* Header ------------------------------------------------------ */
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -160,7 +160,7 @@ ul {
   fill: currentColor;
 }
 
-/* Section 1 Hero ---------------------------- */
+/* Секція 1 Головний екран ------------------------------------- */
 
 .section {
   padding-top: 94px;
@@ -226,7 +226,7 @@ ul {
   background: var(--color-alternate);
 }
 
-/* Section 2 Advantage (hidden) -------------- */
+/* Секція 2 Переваги (приховати заголовок) --------------------- */
 
 .advantage-section {
   padding-bottom: 0;
@@ -264,7 +264,6 @@ ul {
   height: 120px;
   margin-bottom: 30px;
 }
-
 .advantage-icon {
   width: 70px;
   height: 70px;
@@ -287,7 +286,7 @@ ul {
   color: var(--color-text);
 }
 
-/* Section 3 Doing --------------------------- */
+/* Секція 3 Чим ми займаємось ---------------------------------- */
 
 .doing-list {
   display: flex;
@@ -332,7 +331,7 @@ ul {
   color: var(--color-head);
 }
 
-/* Section 4 Our Team ------------------------ */
+/* Секція 4 Наша команда --------------------------------------- */
 
 .team {
   background: var(--color-alternate);
@@ -391,7 +390,7 @@ ul {
   height: 44px;
 }
 
-.team-item-social+.team-item-social {
+.team-item-social + .team-item-social {
   margin-left: 10px;
 }
 
@@ -420,7 +419,7 @@ ul {
   fill: currentColor;
 }
 
-/* Section 5 Clients ------------------------- */
+/* Секція 5 Постійні клієнти ----------------------------------- */
 
 .clients-list {
   display: flex;
@@ -431,7 +430,7 @@ ul {
   height: 92px;
 }
 
-.clients-item+.clients-item {
+.clients-item + .clients-item {
   margin-left: 30px;
 }
 
@@ -460,7 +459,7 @@ ul {
   width: 106px;
 }
 
-/* Footer ------------------------------------ */
+/* Footer ------------------------------------------------------ */
 
 .footer {
   padding-top: 60px;
@@ -537,7 +536,7 @@ ul {
   height: 44px;
 }
 
-.footer-social-item+.footer-social-item {
+.footer-social-item + .footer-social-item {
   margin-left: 10px;
 }
 
@@ -568,12 +567,10 @@ ul {
 .mailing {
   margin-left: 93px;
 }
-
 .footer-form {
   display: flex;
   align-items: center;
 }
-
 .foter-mailing {
   width: 358px;
   height: 50px;
@@ -585,7 +582,6 @@ ul {
   background-color: transparent;
   color: var(--color-main);
 }
-
 .footer-mailing-button {
   height: 50px;
   min-width: 200px;
@@ -609,12 +605,10 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-mailing-button:hover,
 .footer-mailing-button:focus {
   background-color: #188ce8;
 }
-
 .footer-mailing-icon {
   fill: var(--color-main);
   height: 24px;
@@ -622,7 +616,7 @@ ul {
   margin-left: 10px;
 }
 
-/* Portfolio --------------------------------- */
+/* Секція Меню і Портфоліо ------------------------------------- */
 
 .portfolio-nav {
   display: flex;
@@ -759,7 +753,7 @@ ul {
   color: var(--color-text);
 }
 
-/* Modal Window ------------------------------ */
+/* Модальне вікно ---------------------------------------------- */
 
 .backdrop {
   position: fixed;
@@ -881,7 +875,7 @@ ul {
   border-color: var(--color-accent);
 }
 
-.form-input:focus+.form-icon {
+.form-input:focus + .form-icon {
   fill: var(--color-accent);
 }
 
@@ -893,7 +887,7 @@ ul {
   width: 100%;
 }
 
-.form-label+.form-comments {
+.form-label + .form-comments {
   display: block;
   resize: none;
   height: 120px;
@@ -915,7 +909,7 @@ ul {
   outline: none;
 }
 
-.form-label+.form-comments:not(:placeholder-shown) {
+.form-label + .form-comments:not(:placeholder-shown) {
   color: #000000;
 }
 
@@ -962,7 +956,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked~.checkbox-icon {
+.checkbox-input:checked ~ .checkbox-icon {
   border-radius: 2px;
   background: var(--color-accent);
   fill: var(--color-head);
